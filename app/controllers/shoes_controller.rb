@@ -10,7 +10,7 @@ class ShoesController < ApplicationController
 
   # GET /shoes/1
   def show
-    render json: @shoe
+    render json: @shoe, status: 200
   end
 
   # POST /shoes
